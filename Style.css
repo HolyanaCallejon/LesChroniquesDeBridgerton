@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'BeautyDemo';
+    src: url('font/BeautyDemo.ttf')
+}
+@font-face {
+    font-family: 'AppleGaramond';
+    src: url('font/AppleGaramond.ttf')  
+}
+
 .Liens
 {
     color: black;
@@ -5,5 +14,28 @@
 
 #TitreDuSite
 {
-    color: royalblue;
+    color: black;
+    font-family: 'BeautyDemo';
+    font-size: 4.0em;
+    text-align: center;
+    font-weight: normal;
+}
+
+p
+{
+    font-family: "AppleGaramond";
+
+}
+
+h2 
+{
+    font-family: 'BeautyDemo';
+    font-size: 3.0em;
+    font-weight: normal;
+    margin: 0%;
+    
+}
+#Sommaire
+{
+    margin-bottom: 20px;
 }
