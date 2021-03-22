@@ -9,15 +9,17 @@
 
 body
 {
-    background: url("Photos/Page.jpg") fixed no-repeat ;
+    background: url("Photos/Page.jpg") fixed no-repeat;
     background-size: cover;
     margin: 3em;
+    
 }
 
 .Liens
 {
     color: black;
     font-size: 1.3em;
+    font-family: 'AppleGaramong';
 }
 
 #TitreDuSite
@@ -38,6 +40,7 @@ p
 #SynopsisP
 {
     font-size: 1.3em;
+    margin: 100px;
 }
 
 h2 
@@ -92,6 +95,15 @@ img
     height: 200px;
     width: 200px;
     object-fit: cover;
-   
-    
+}
+.PeronnageIndividuel p em
+{
+    font-family:'AppleGaramond';
+    font-weight:bolder;
+    font-style: normal;
+}
+
+.PeronnageIndividuel p
+{
+    text-align: center;
 }
